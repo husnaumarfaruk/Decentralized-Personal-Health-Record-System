@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/record-access.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.research-consent]
+path = 'contracts/research-consent.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
